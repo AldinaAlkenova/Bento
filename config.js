@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Arman',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'd49e931eb9ddb9b5d79ea3a0bbd325a1', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '51.086847',
+	defaultLongitude: '71.430275',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,78 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'СРН Бой',
+			icon: 'code',
+			link: 'https://prodapp182.stat.gov.kz:9809/srnapp/index',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'СРН Тест',
+			icon: 'code',
+			link: 'http://172.16.18.182:9999/srnapp/index',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Класс Бой',
+			icon: 'code',
+			link: 'http://172.16.0.88:8001/classv3-web-ui/check.jsp;jsessionid=ULYzdSk-EdEPZ_Qf25A74zPgNk0_oYOki6-vHc2L_k60x4ic6UrL!-1557610946',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Класс Тест',
+			icon: 'code',
+			link: 'http://172.16.18.89:7006/classv3-web-ui/check.jsp',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Мониторинг',
+			icon: 'activity',
+			link: 'https://docs.google.com/spreadsheets/d/1mhWyGfvoNRUDiFqQYl4CkL6C1AIDOBYXMvEkFyTnlBI/edit#gid=0',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Ресурсный план',
+			icon: 'notebook-pen',
+			link: 'https://docs.google.com/spreadsheets/d/1Rmha2b9BeaYWr-RV3a3Frel0LFn6C69q9RO3TJZmdDs/edit#gid=1356347506',
 		},
 	],
 
@@ -135,96 +96,28 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'school',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Moodle',
+					link: 'https://moodle.astanait.edu.kz/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Linkedln',
+					link: 'https://www.linkedin.com/feed/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Swagger SRN',
+					link: 'http://172.16.0.182:9999/srnaccompaniment/swagger-ui.html#',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-			],
-		},
-		{
-			icon: 'coffee',
-			id: '2',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'MQU',
+					link: 'http://172.16.0.139:8161/admin/queues.jsp?QueueFilter=srn',
 				},
 			],
 		},
 	],
 
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
-				},
-			],
-		},
-	],
+	
 };
